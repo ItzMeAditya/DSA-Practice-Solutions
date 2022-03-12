@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// function to convert Integer to Roman
 string intToRoman (int num)
 {
 	string romans [] = {"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"};
@@ -21,6 +22,7 @@ string intToRoman (int num)
 	return ans;
 }
 
+// driver method
 int main ()
 {
 	int t;
